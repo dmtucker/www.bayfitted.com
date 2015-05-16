@@ -1,0 +1,14 @@
+RewriteEngine on
+
+Options -Indexes
+
+ErrorDocument 403 http://bayfitted.com/message.php?error=403
+ErrorDocument 404 http://bayfitted.com/message.php?error=404
+
+RedirectMatch 403 /default.*$
+RedirectMatch 403 /documentation.*$
+RedirectMatch 403 /resources/extensions.*$
+RedirectMatch 403 /.*\.htaccess$
+RedirectMatch 403 /.*\.ini$
+RedirectMatch 403 /.*\.log$
+RedirectMatch 403 /.*\.plist$

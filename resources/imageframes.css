@@ -1,0 +1,13 @@
+ @charset "UTF-8";
+/* CSS Document */
+
+#strip_of_thumbnails a:link, #strip_of_thumbnails a:hover, #strip_of_thumbnails a:active, #strip_of_thumbnails a:visited {text-decoration:none;}
+#strip_of_thumbnails {padding:40px;}
+#strip_of_thumbnails img {
+	border:0px;
+	padding:5px;
+}
+#strip_of_thumbnails .activeImage {
+	border:5px solid #FFF;
+	padding:0px;
+}
