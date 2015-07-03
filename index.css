@@ -83,7 +83,7 @@ article#home > ol {
     text-align: left;
     line-height: 1.25em;
 }
-article#home > section#gallery {
+article#home > div#gallery {
     clear: both;
     text-align: center;
 }
