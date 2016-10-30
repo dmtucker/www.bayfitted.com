@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - oraclejdk8
+branches:
+  only:
+    - gh-pages
+install:
+  - pip install --user html5validator
+script: html5validator --show-warnings --root .
